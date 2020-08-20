@@ -1,5 +1,5 @@
 import builtins
-import pylib._builtins
+import pylib.bltins
 from itertools import count
 
 
