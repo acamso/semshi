@@ -22,7 +22,7 @@ IMPORTED = group('imported')
 LOCAL = group('local')
 SELECTED = group('selected')
 
-more_builtins = {'__file__', '__path__', '__cached__'}
+more_builtins = {'__file__', '__path__', '__cached__', '__builtins__'}
 builtins = set(vars(builtins)) | more_builtins
 
 
