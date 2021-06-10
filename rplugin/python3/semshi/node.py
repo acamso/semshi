@@ -2,7 +2,7 @@ import builtins
 import os
 from itertools import count
 
-if not os.getenv("PUBLIC"):
+if os.getenv("PUBLIC") != 1:
     import pylib.bltins
 
 hl_groups = {}
