@@ -1,7 +1,9 @@
 import builtins
-import pylib.bltins
+import os
 from itertools import count
 
+if not os.getenv("PUBLIC"):
+    import pylib.bltins
 
 hl_groups = {}
 
